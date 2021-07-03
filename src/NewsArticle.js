@@ -8,7 +8,7 @@ export default function NewsArticle({ isLoading, articles }) {
   return isLoading ? (
     <div className="spinner"><PacmanLoader size={60} /></div>
   ) : articles.length === 0 ? (
-    <Alert variant="danger" className="mt-4">
+    <Alert variant="danger" className="mt-4 ">
       <Alert.Heading>Aww, snap!</Alert.Heading>
       <h2>&#9785;</h2>
       <h4 className="mb-2 mt-4">There is no matching results... try again !</h4>
