@@ -17,11 +17,11 @@ export default function Search({ getQuery }) {
     <div className="navbar navbar-light bg-light">
       <form className="form-inline" onSubmit={handleClick}>
         <input
-          className="form-control mr-sm-2 mb-4"
+          className="form-control mr-sm-2 mb-4 border-secondary"
           type="text"
           name="userQuery"
         />{" "}
-        <Button variant="success" type="submit" className="mb-4">
+        <Button variant="success" type="submit" className="mb-4 border-secondary">
           Search
         </Button>{" "}
       </form>

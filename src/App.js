@@ -52,7 +52,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <NavbarPage />
+      <h1 className="card-header border-light" > CryptoNews </h1>
       <Search getQuery={(quer) => setQuery(quer)} />
       <NewsArticle isLoading={isLoading} articles={currentArticles} />
       {isLoading ? null : (

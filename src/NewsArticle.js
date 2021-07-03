@@ -6,7 +6,7 @@ import Accordion from "react-bootstrap/Accordion";
 
 export default function NewsArticle({ isLoading, articles }) {
   return isLoading ? (
-    <PacmanLoader size={60} />
+    <div className="spinner"><PacmanLoader size={60} /></div>
   ) : articles.length === 0 ? (
     <Alert variant="danger" className="mt-4">
       <Alert.Heading>Aww, snap!</Alert.Heading>
@@ -22,7 +22,8 @@ export default function NewsArticle({ isLoading, articles }) {
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="1">
             <Card.Text className="mb-2 text-muted">
-              {moment(article.created_at).format("MMM Do YY")}{" "}
+            <pre class="tab">
+            {moment(article.created_at).format("DD-MM-YYYY")} {"  |  by"} {article.author} {"  | "} {article.num_comments} {"comments  |  "}
               <Card.Link
                 className="mb-2 text-muted"
                 href={article.url || article.story_url}
@@ -30,6 +31,7 @@ export default function NewsArticle({ isLoading, articles }) {
               >
                 Full article
               </Card.Link>
+              </pre>
             </Card.Text>
           </Accordion.Collapse>
         </Card>

@@ -1,8 +1,44 @@
 .App {
+  box-sizing: border-box;
   font-family: sans-serif;
-  text-align: left;
+  text-align: center;
+  margin: 10px 30px;
 }
-a {
-  font-size: 10px;
-  color: lightseagreen;
+.form-inline {
+  display: flex;
+}
+.pagination {
+  position: relative;
+  bottom: 0;
+}
+.nav-container {
+  width: 100%;
+}
+.pacman {
+  margin-top: 100px;
+}
+div .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinner {
+  position:relative; 
+  right:80px;
+  top: 100px;
+}
+.navbar {
+  background-image: url("/Users/natalia/projects/group-project-hacker-news/HackerNews/src/image-3046639_640 (1).png");
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+ul {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+.tab {
+  padding-top: 10px;
+  font-family: sans-serif;
+
 }
