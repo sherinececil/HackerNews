@@ -3,6 +3,7 @@
   "name": "hackernews-clone-react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://xn--60e98d8--priceless-kilby-fa0e7d-0w5s.netlify.app/static/js/main.61269230.chunk.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
