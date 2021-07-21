@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sherinececil/HackerNews/static/css/main.f9a3e777.chunk.css",
+    "main.js": "/sherinececil/HackerNews/static/js/main.19efa82a.chunk.js",
+    "main.js.map": "/sherinececil/HackerNews/static/js/main.19efa82a.chunk.js.map",
+    "runtime-main.js": "/sherinececil/HackerNews/static/js/runtime-main.c365a60d.js",
+    "runtime-main.js.map": "/sherinececil/HackerNews/static/js/runtime-main.c365a60d.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/sherinececil/HackerNews/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.1da2ccb5.chunk.js": "/sherinececil/HackerNews/static/js/2.1da2ccb5.chunk.js",
+    "static/js/2.1da2ccb5.chunk.js.map": "/sherinececil/HackerNews/static/js/2.1da2ccb5.chunk.js.map",
+    "static/js/3.09b74315.chunk.js": "/sherinececil/HackerNews/static/js/3.09b74315.chunk.js",
+    "static/js/3.09b74315.chunk.js.map": "/sherinececil/HackerNews/static/js/3.09b74315.chunk.js.map",
+    "index.html": "/sherinececil/HackerNews/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/sherinececil/HackerNews/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.f9a3e777.chunk.css.map": "/sherinececil/HackerNews/static/css/main.f9a3e777.chunk.css.map",
+    "static/js/2.1da2ccb5.chunk.js.LICENSE.txt": "/sherinececil/HackerNews/static/js/2.1da2ccb5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c365a60d.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.1da2ccb5.chunk.js",
+    "static/css/main.f9a3e777.chunk.css",
+    "static/js/main.19efa82a.chunk.js"
+  ]
+}
